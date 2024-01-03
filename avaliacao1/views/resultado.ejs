@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Avaliação - Primeiro Trimestre</title>
+    <meta charset="UTF-8">
+	<link href="estilo.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+	<div id="quadro">
+		<div id="cabecalho">
+			<img src="ifrs.png" align="left" width="130" style="padding-top: 5px; padding-left: 10px;">
+			<h1 align="center">Solicitação de Compra</h1>
+		</div>
+		<div id="servidor">
+			<h3 align="center">Dados do Servidor</h3>
+			<ul>
+				<li>Matrícula: <%= matricula %></li>
+				<li>Nome: <%= nome %></li>
+				<li>Cargo: <%= cargo %></li>
+			</ul>
+		</div>
+
+		<div id="material">
+			<p>Dados do Material</p>
+			<ul>
+				<li>Nome: <%= material %></li>
+				<li>Descrição: <%= descricao %></li>
+				<li>Preço Unitário: R$ <%= preco %></li>
+				<li>Unidade: <%= unidade %></li>
+			</ul>
+		</div>
+		
+		<div id="compra">
+			<p>Dados da Compra</p>
+			  <ul>
+				<li>Quantidade da Compra: <%= quantidade %></li>
+				<li>Urgência da Compra: <%= urgencia %></li>
+				<li>Prazo de Entrega: <%= prazoEntrega %> dias</li>
+				<li>Valor da Compra: R$ <%= valorCompra %></li>
+			</ul>
+		</div>
+	</div>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+#quadro{
+    width: 1000px;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#quadro #material, #quadro #compra{
+    width: 49.4%;
+}
+
+
+#cabecalho{
+    border: solid black 4px;
+    width: 100%;
+}
+#cabe-espace{
+    width: 20%;
+}
+
+#servidor{
+    border: solid black 4px;
+    border-top: none;
+    border-bottom: none;
+    width: 100%;
+
+
+}
+#servidor p{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#material{
+    border: solid black 4px;
+    border-right: none;
+
+
+}
+#material p {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#compra{
+    border: solid black 4px;
+    color: blue;
+
+
+}
+#compra p{
+    text-align: center;
+    font-weight: bold;
+}
